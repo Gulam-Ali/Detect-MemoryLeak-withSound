@@ -13,6 +13,7 @@
 		EAE064F3280F565300997A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE064F1280F565300997A7B /* Main.storyboard */; };
 		EAE064F5280F565900997A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE064F4280F565900997A7B /* Assets.xcassets */; };
 		EAE064F8280F565900997A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE064F6280F565900997A7B /* LaunchScreen.storyboard */; };
+		EAE06500280F576300997A7B /* LeakyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE064FF280F576300997A7B /* LeakyVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EAE064F4280F565900997A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAE064F7280F565900997A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAE064F9280F565900997A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE064FF280F576300997A7B /* LeakyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakyVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EAE064EB280F565300997A7B /* AppDelegate.swift */,
 				EAE064ED280F565300997A7B /* SceneDelegate.swift */,
 				EAE064EF280F565300997A7B /* ViewController.swift */,
+				EAE064FF280F576300997A7B /* LeakyVC.swift */,
 				EAE064F1280F565300997A7B /* Main.storyboard */,
 				EAE064F4280F565900997A7B /* Assets.xcassets */,
 				EAE064F6280F565900997A7B /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				EAE064F0280F565300997A7B /* ViewController.swift in Sources */,
 				EAE064EC280F565300997A7B /* AppDelegate.swift in Sources */,
 				EAE064EE280F565300997A7B /* SceneDelegate.swift in Sources */,
+				EAE06500280F576300997A7B /* LeakyVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,11 +305,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.memoryLeak.gulamAli.MemoryLeak;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memoryLeak.gulamAli;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,11 +332,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.memoryLeak.gulamAli.MemoryLeak;
+				PRODUCT_BUNDLE_IDENTIFIER = com.memoryLeak.gulamAli;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
